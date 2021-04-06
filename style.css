@@ -1,0 +1,189 @@
+.background {
+  position: fixed;
+  z-index: -1;
+  height: 100%;
+  margin: 0px;
+  background: transparent url("MVI_0212.mp4") fixed no-repeat center center;
+  background-size: cover;
+  opacity: 0.6;
+}
+html {
+  height: 100%;
+}
+.content {
+  padding: 0%;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 7px;
+  font-family: Courgette, sans-serif;
+  width: 100%;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: Courgette, sans-serif;
+}
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: black;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: black;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+body {
+  margin: 0px;
+}
+.bg {
+  background-image: url(wall.jpg);
+  background-size: unset;
+  background-repeat: no-repeat;
+}
+.mitzi {
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  width: 250px;
+  height: 300px;
+  border: darkgrey solid 2px;
+}
+.about {
+  font-size: 25px;
+  text-align: center;
+}
+.aboutmitzi {
+  background-image: url(orange-texture.jpg);
+  opacity: 0.8;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 55px;
+  border: darkgray;
+  border-radius: 15px;
+}
+.aboutzlata {
+  background-image: url(orange-texture.jpg);
+  opacity: 0.8;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 700px;
+  border: darkgray;
+  border-radius: 15px;
+}
+.fav {
+  background-image: url(orange-texture.jpg);
+  opacity: 0.8;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 1500px;
+  border: darkgray;
+  border-radius: 15px;
+}
+.zlata {
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  width: 270px;
+  height: 300px;
+  border: darkgrey solid 2px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: orange;
+}
+.mitzi-style {
+  color: black;
+  font-size: 110%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
