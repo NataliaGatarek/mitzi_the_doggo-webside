@@ -92,11 +92,11 @@ html {
 body {
   margin: 0px;
 }
-.bg {
+/*.bg {
   background-image: url(wall.jpg);
   background-size: unset;
   background-repeat: no-repeat;
-}
+}*/
 .mitzi {
   float: left;
   margin-right: 15px;
@@ -110,7 +110,7 @@ body {
   font-size: 25px;
   text-align: center;
 }
-.aboutmitzi {
+/*.aboutmitzi {
   background-image: url(orange-texture.jpg);
   opacity: 0.8;
   position: absolute;
@@ -129,7 +129,7 @@ body {
   top: 700px;
   border: darkgray;
   border-radius: 15px;
-}
+}*/
 .fav {
   background-image: url(orange-texture.jpg);
   opacity: 0.8;
@@ -242,4 +242,17 @@ table {
 .Btn2:hover {
   background: #ddd;
   color: black;
+}
+.bg-image {
+  background-image: url("header.jpg");
+  height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.masterflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

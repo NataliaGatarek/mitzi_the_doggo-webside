@@ -11,32 +11,34 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body class="bg">
-    <div class="navbar">
-      <a href="index.html">Home</a>
-      <div class="dropdown">
-        <button class="dropbtn">
-          About
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="#">About Mitzi</a>
-          <a href="#">About Zlata</a>
-          <a href="#">Favourites</a>
-        </div>
-      </div>
-      <div class="dropdown">
-        <button class="dropbtn">
-          Adventures
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Blog</a>
-          <a href="#">Galery</a>
-        </div>
-      </div>
+  <body class>
+<div class="bg-image"></div>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">
+      About
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">About Mitzi</a>
+      <a href="#">About Zlata</a>
+      <a href="#">Favourites</a>
     </div>
-    
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">
+      Adventures
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Blog</a>
+      <a href="#">Galery</a>
+    </div>
+  </div>
+</div>
+</div>
+    <div id= "about" class="masterflex">
     <div class="aboutmitzi">
       <p class="about" id="aboutmitzi">About Mitzi</p>
       <img src="mitzi.jpg" class="mitzi" alt="Mitzi" />
@@ -83,6 +85,7 @@
         <a href="https://www.instagram.com/mitzi_the_doggo/?hl=en" class="fa fa-instagram"></a>
       </p>
     </div>
+    
     <div class="aboutzlata">
       <p class="about" id="aboutzlata">About Zlata</p>
       <img src="zlata.jpg" class="zlata" alt="Zlata" />
@@ -149,9 +152,11 @@
       </div>
       <button id="myButton" class="Btn">View Zlata's Pedigree</button>
     </div>
+    
     <div class="fav">
       <p class="about" id="favourites">Favourites</p>
       <p>Gear, toys, food and snacks used by our dogs</p>
+    </div>
     </div>
     <script src="about.js"></script>
   </body>
