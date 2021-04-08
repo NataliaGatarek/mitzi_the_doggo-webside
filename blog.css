@@ -4,7 +4,7 @@
   font-family: Courgette, sans-serif;
 }
 .navbar a {
-  float: right;
+  float: left;
   font-size: 16px;
   color: white;
   text-align: center;
@@ -12,7 +12,7 @@
   text-decoration: none;
 }
 .dropdown {
-  float: right;
+  float: left;
   overflow: hidden;
 }
 .dropdown .dropbtn {

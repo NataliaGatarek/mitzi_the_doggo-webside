@@ -8,4 +8,4 @@ function goBack() {
   window.history.back();
 }
 document.getElementById("button").style.marginBottom = "50px";
-document.getElementById("button").style.marginLeft = "50%";
+document.getElementById("button").style.marginLeft = "43%";

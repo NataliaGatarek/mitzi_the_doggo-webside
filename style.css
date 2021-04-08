@@ -42,15 +42,19 @@ html {
   font-family: Courgette, sans-serif;
 }
 .navbar a {
-  float: right;
+  float: left;
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 14px;
+  padding-left: 16px;
   text-decoration: none;
 }
+
 .dropdown {
-  float: right;
+  float: left;
   overflow: hidden;
 }
 .dropdown .dropbtn {
@@ -163,7 +167,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: orange;
+  background: bisque;
 }
 .mitzi-style {
   color: black;
@@ -238,6 +242,7 @@ table {
   background: #000;
   color: #fff;
   cursor: pointer;
+  padding: 10px 10px 10px 10px;
 }
 .Btn2:hover {
   background: #ddd;
