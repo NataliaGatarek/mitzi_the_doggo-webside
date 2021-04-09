@@ -30,6 +30,7 @@ html {
   background: #000;
   color: #fff;
   cursor: pointer;
+  font-family: Courgette, sans-serif;
 }
 
 #myBtn:hover {
@@ -96,11 +97,7 @@ html {
 body {
   margin: 0px;
 }
-/*.bg {
-  background-image: url(wall.jpg);
-  background-size: unset;
-  background-repeat: no-repeat;
-}*/
+
 .mitzi {
   float: left;
   margin-right: 15px;
@@ -110,39 +107,26 @@ body {
   height: 300px;
   border: darkgrey solid 2px;
 }
-.about {
-  font-size: 25px;
-  text-align: center;
-}
-/*.aboutmitzi {
-  background-image: url(orange-texture.jpg);
-  opacity: 0.8;
-  position: absolute;
-  left: 10px;
-  right: 10px;
-  top: 55px;
+.aboutmitzi {
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 25px;
   border: darkgray;
   border-radius: 15px;
 }
 .aboutzlata {
-  background-image: url(orange-texture.jpg);
-  opacity: 0.8;
-  position: absolute;
-  left: 10px;
-  right: 10px;
-  top: 700px;
   border: darkgray;
   border-radius: 15px;
-}*/
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 25px;
+}
 .fav {
-  background-image: url(orange-texture.jpg);
-  opacity: 0.8;
-  position: absolute;
-  left: 10px;
-  right: 10px;
-  top: 1500px;
   border: darkgray;
   border-radius: 15px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 25px;
 }
 .zlata {
   float: left;
@@ -189,21 +173,14 @@ body {
     width: 100%;
   }
 }
-.fa {
-  padding: 3px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
+
 .fa:hover {
   opacity: 0.7;
 }
 
 .fa-instagram {
-  background: #3b5998;
-  color: white;
+  color: black;
+  font-size: 48px;
 }
 
 table,
@@ -228,7 +205,10 @@ table {
   background: #000;
   color: #fff;
   cursor: pointer;
-  margin-left: 45%;
+  margin-left: 40%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-family: Courgette, sans-serif;
 }
 
 .Btn:hover {
@@ -243,6 +223,7 @@ table {
   color: #fff;
   cursor: pointer;
   padding: 10px 10px 10px 10px;
+  font-family: Courgette, sans-serif;
 }
 .Btn2:hover {
   background: #ddd;
@@ -260,4 +241,23 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.stripeimage {
+  background-image: url("wall4.jpg");
+  height: 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.stylepar {
+  font-family: Courgette, sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  text-align: center;
+}
+p {
+  font-family: Courgette, sans-serif;
 }
