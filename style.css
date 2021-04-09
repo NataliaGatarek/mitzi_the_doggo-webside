@@ -241,12 +241,12 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .stripeimage {
-  background-image: url("wall4.jpg");
-  height: 80px;
+  background-color: gray;
+  height: 40px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

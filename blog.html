@@ -7,6 +7,7 @@
     <title>Blog</title>
     <link rel="stylesheet" href="blog.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -19,8 +20,9 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="#">About Mitzi</a>
-                <a href="#">About Zlata</a>
+                <a href="about.html">About</a>
+                <a href="about.html#aboutmitzi">About Mitzi</a>
+                <a href="about.html#aboutzlata">About Zlata</a>
                 <a href="#">Favourites</a>
             </div>
         </div>
@@ -30,13 +32,14 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
+                <a href="blog.html">Adventures</a>
                 <a href="#">Blog</a>
                 <a href="#">Galery</a>
             </div>
         </div>
     </div>
-    </div>
    <div id="bg">
+       <div id="blog1"></div>
    <div class="flexclass">
 
     <div class="card" id="card1"><img src="kleve.jpg" class="kleve" alt="kleve" /><h1>Vacation in Kleve</h1>
@@ -72,10 +75,99 @@
 </div></div>
     </div>
    </div>
+
 <div class="stripeimage"></div>
-<div id="galery">
+<div id="body2">
+<div id="galery"></div>
+<div class="row">
+    <div class="column">
+        <img src="galery/kleve/18.jpg" alt="Kleve" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/kleve/19.jpg" alt="Kleve" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/kleve/20.jpg" alt="Kleve" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/spring/21.jpg" alt="Spring" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/spring/22.jpg" alt="Spring" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/spring/23.jpg" alt="Spring" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/spring/24.jpg" alt="Spring" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/sea/1.jpg" alt="Sea" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/sea/2.jpg" alt="Sea" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/sea/3.jpg" alt="Sea" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/12.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/13.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/14.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/15.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/16.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/10.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/9.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/8.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/7.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/6.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/5.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/4.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/11.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/16.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="galery/winter/17.jpg" alt="Winter" onclick="myFunction(this);">
+    </div>
+</div>
+
+
+<div class="container">
+    
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+ 
+    <img id="expandedImg" style="width:100%">
 <div id="imgtext"></div>
 </div>
+</div>
+<script src="galery.js"></script>
     <script src="blog.js"></script>
     </body>
     </html>

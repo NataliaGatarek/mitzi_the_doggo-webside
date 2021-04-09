@@ -100,4 +100,13 @@ var node = document.createTextNode("Galery with the pictures of Mitzi and Zlata"
 para.appendChild(node);
 var element = document.getElementById("galery");
 element.appendChild(para);
-document.getElementById("galery").style.backgroundImage = "url(orange-texture.jpg)";
+document.getElementById("body2").style.backgroundImage = "url(orange-texture.jpg)";
+document.getElementById("galery").style.fontSize = "27px";
+document.getElementById("galery").style.fontWeight = "600";
+var para = document.createElement("p");
+var node = document.createTextNode("Blog about adventures of Mitzi and Zlata");
+para.appendChild(node);
+var element = document.getElementById("blog1");
+element.appendChild(para);
+document.getElementById("blog1").style.fontSize = "27px";
+document.getElementById("blog1").style.fontWeight = "600";
