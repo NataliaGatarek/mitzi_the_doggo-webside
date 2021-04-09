@@ -1,4 +1,4 @@
-document.body.style.backgroundImage = "url(wall4.jpg)";
+document.body.style.backgroundColor="gray"
 document.getElementById("myDiv").setAttribute("align", "center");
 document.getElementById("myDiv").style.backgroundImage = "url(orange-texture.jpg)";
 document.getElementById("myDiv").style.marginTop = "20px";
