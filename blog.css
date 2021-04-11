@@ -76,7 +76,7 @@ img {
   width: 300px;
   margin-top: 8px;
   margin-bottom: 8px;
-  padding: 2px 16px;
+  padding: 16px 16px;
   border: solid black 4px;
 }
 .card:hover {
